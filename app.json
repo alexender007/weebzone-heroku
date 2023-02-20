@@ -9,7 +9,7 @@
     "repository": "https://github.com/Tamilupdates/weebzone-heroku",
     "env": {
         "CONFIG_FILE_URL": {
-            "description": "Your bot token.",
+            "description": "Pul You Config File URL",
             "required": true
         }
     },
