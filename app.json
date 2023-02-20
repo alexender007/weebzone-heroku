@@ -5,11 +5,11 @@
     "keywords": [
       "telegram"
     ],
-    "website": "https://github.com/EvamariaTG/EvaMaria",
+    "website": "/",
     "repository": "https://github.com/Tamilupdates/weebzone-heroku",
     "env": {
         "CONFIG_FILE_URL": {
-            "description": "Pul You Config File URL",
+            "description": "Put You Config File URL",
             "required": true
         }
     },
