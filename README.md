@@ -1,4 +1,4 @@
-# weebzone-heroku
+# Weebzone-Heroku
 
 ### Deploy on Heroku
 
