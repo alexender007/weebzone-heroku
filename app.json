@@ -1,35 +1,49 @@
+
 {
-  "name": "Leech Bot",
-  "description": "A Pyrogram Telegram Bot",
-  "keywords": [
-      "telegram",
-      "stream",
-      "web",
-      "pyrogram",
-      "aiohttp",
-      "python",
-      "plugin",
-      "modular",
-      "media",
-      "bot"
+
+    "name": "MG",
+
+    "description": "A Modular telegram bot.",
+
+    "repository": "https://github.com/Tamilupdates/weebzone-heroku",
+    "buildpacks":[
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        },
+        {
+            "url": "https://github.com/amivin/aria2-heroku.git"
+        },
+        {
+            "url": "heroku/python"
+        }
     ],
-  "repository": "https://github.com/Tamilupdates/weebzone-heroku",
-  "success_url": "/",
-  "logo": "https://i.ibb.co/MnMZ1Sy/download-1.jpg",
-  "website": "https://telegram.me/Nanthakps",
-  "env": {
-      "CONFIG_FILE_URL": {
-          "description": "Put Your Config File URL"
-          "required": false
-      },
-  },
-  "buildpacks": [{
-      "url": "heroku/python"
-    }],
-  "formation": {
-      "web": {
-          "quantity": 1,
-          "size": "eco"
-      }
-  }
+    "keywords": [
+
+       
+
+        "telegram bot",
+
+        "pyrogram"
+
+    ],
+
+    "env": {
+
+        "CONFIG_FILE_URL": {
+
+            "description": "Your Bot token from @Botfather"
+
+        },
+    },
+
+    "buildpacks": [
+
+        {
+
+            "url": "heroku/python"
+
+        }
+
+    ]
+
 }
