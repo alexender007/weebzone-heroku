@@ -1,7 +1,6 @@
 {
     "name": "Leech Bot",
     "description": "Customized Telegram Leech Bot with Heroku Deploy",
-    "stack": "container",
     "keywords": [
       "telegram"
     ],
