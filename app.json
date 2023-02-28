@@ -14,9 +14,7 @@
         }
     },
     "addons": [],
-    "buildpacks": [{
-        "url": "heroku/python"
-    }],
+    "buildpacks": [],
     "formation": {
         "worker": {
             "quantity": 1,
