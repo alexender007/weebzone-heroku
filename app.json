@@ -12,7 +12,7 @@
             "required": true
         }
     },
-  "formation": {
+    "formation": {
     "worker": {
       "quantity": 1,
       "size": "eco"
