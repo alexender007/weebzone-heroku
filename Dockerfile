@@ -1,3 +1,1 @@
-FROM nanthakps/wz:heroku
-
-COPY . .
+FROM nanthakps/weebzone:heroku
