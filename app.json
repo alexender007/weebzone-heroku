@@ -4,6 +4,9 @@
     "keywords": [
       "telegram"
     ],
+    "buildpacks": [{
+    "url": "heroku/python"
+    }],
     "repository": "https://github.com/Tamilupdates/weebzone-heroku",
     "env": {
         "CONFIG_FILE_URL": {
@@ -18,3 +21,4 @@
     }
   }
 }
+
