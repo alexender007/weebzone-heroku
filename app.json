@@ -5,7 +5,6 @@
     "keywords": [
       "telegram"
     ],
-    "website": "/",
     "repository": "https://github.com/Tamilupdates/weebzone-heroku",
     "env": {
         "CONFIG_FILE_URL": {
@@ -13,14 +12,10 @@
             "required": true
         }
     },
-    "addons": [],
-    "buildpacks": [{
-        "url": "heroku/python"
-    }],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "eco"
-        }
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
     }
+  }
 }
