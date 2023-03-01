@@ -1,1 +1,1 @@
-FROM nanthakps/weebzone:heroku
+FROM nanthakps/wz:heroku
